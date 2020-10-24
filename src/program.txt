@@ -1,0 +1,22 @@
+///////////////////////////////////////
+//////          comand          ///////
+///////////////////////////////////////
+/////                            //////
+///// reg : æ‚İ  (ex: reg 200)//////
+///// del : æÁ‚µ  (ex: del 300)//////
+///// pay : x•¥‚¢  (ex: pay 500)//////
+///// repeat : ŒJ•Ô‚µ            //////
+///// (ex: repeat 2 pay 100 end) //////
+/////                            //////
+/////  æ“ª"//"‚ÍƒRƒƒ“ƒg‚Å‚·    //////
+/////                            //////
+///////////////////////////////////////
+
+// program reg 50 end
+// program del 300 end
+// program pay 500 end
+// program repeat 3 del 100 end pay 500 end
+// program repeat 5 repeat 3 reg 10000 end pay 30000 end end
+
+program reg 100 reg 200 del 100 pay 500 end
+
